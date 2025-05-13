@@ -8,17 +8,17 @@ WORKDIR	/app
 
 #copy code from local to container
 
-Copy app.py /app
+Copy . /app
 
 
 # requiremnt for flash app
 
-run pip install flash
+run pip install flask
 
 
 #Define the post 
 
-Expose 5000
+Expose 2000
 
 # run the container
 
